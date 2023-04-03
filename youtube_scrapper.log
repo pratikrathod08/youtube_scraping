@@ -1,0 +1,320 @@
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\PRATIK\MSC(BIA)\PW\live practice\web_scrapping\36_project_youtube\app.py", line 13, in homepage
+    render_template(index.html)
+NameError: name 'index' is not defined
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2023 21:48:56] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\PRATIK\MSC(BIA)\PW\live practice\web_scrapping\36_project_youtube\app.py", line 13, in homepage
+    render_template(index.html)
+NameError: name 'index' is not defined
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2023 21:49:01] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2023 21:51:06] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2023 21:51:12] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2023 21:52:43] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2023 21:52:43] "[37mGET /static/css/main.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2023 21:52:44] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2023 21:52:48] "[33mPOST /review HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2023 23:15:02] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2023 23:15:03] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2023 23:15:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2023 23:15:30] "[33mPOST /review HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2023 23:15:45] "[33mPOST /review HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:get request successfully
+INFO:root:name 'webdriver' is not defined
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2023 23:20:58] "[37mPOST /review HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2023 23:20:58] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:root:get request successfully
+INFO:root:name 'webdriver' is not defined
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2023 23:21:26] "[37mPOST /review HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2023 23:21:26] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2023 23:25:22] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2023 23:25:22] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2023 23:25:22] "[37mGET /static/css/main.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2023 23:25:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:get request successfully
+INFO:root:connection successfull
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2023 23:26:23] "[37mPOST /review HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2023 23:26:23] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2023 23:32:00] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:root:get request successfully
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2023 23:32:24] "[37mPOST /review HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2023 23:32:24] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:root:get request successfully
+INFO:root:connection successfull
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2023 23:33:49] "[37mPOST /review HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2023 23:33:49] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:06:28] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:06:28] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:06:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:get request successfully
+INFO:root:connection successfull
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:07:41] "[37mPOST /review HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:07:41] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:10:13] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:10:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:10:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:10:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:get request successfully
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:10:39] "[37mPOST /review HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:10:39] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:20:45] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:20:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:get request successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome 111.0.5563
+INFO:WDM:There is no [win32] chromedriver for browser 111.0.5563 in cache
+INFO:WDM:About to download new driver from https://chromedriver.storage.googleapis.com/111.0.5563.64/chromedriver_win32.zip
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:22:01] "[37mPOST /review HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:22:04] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:23:12] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:root:get request successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome 111.0.5563
+INFO:WDM:There is no [win32] chromedriver for browser 111.0.5563 in cache
+INFO:WDM:About to download new driver from https://chromedriver.storage.googleapis.com/111.0.5563.64/chromedriver_win32.zip
+INFO:WDM:Driver has been saved in cache [C:\Users\HP\.wdm\drivers\chromedriver\win32\111.0.5563]
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:23:29] "[37mPOST /review HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:23:29] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:get request successfully
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:24:06] "[37mPOST /review HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:24:06] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:29:57] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:29:59] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:root:get request successfully
+INFO:root:connection successfull
+INFO:root:data collected
+INFO:root:data get into dict
+INFO:root:data collected
+INFO:root:data get into dict
+INFO:root:data collected
+INFO:root:data get into dict
+INFO:root:data collected
+INFO:root:data get into dict
+INFO:root:data collected
+INFO:root:data get into dict
+ERROR:__main__:Exception on /review [POST]
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\HP\AppData\Local\Temp\ipykernel_24784\3856249405.py", line 62, in index
+    return render_template("result.html",list_pw)
+TypeError: render_template() takes 1 positional argument but 2 were given
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:30:58] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:31:13] "[37mGET /review HTTP/1.1[0m" 200 -
+INFO:root:get request successfully
+ERROR:__main__:Exception on /review [POST]
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\HP\AppData\Local\Temp\ipykernel_24784\3856249405.py", line 62, in index
+    return render_template("result.html",list_pw)
+UnboundLocalError: local variable 'list_pw' referenced before assignment
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:32:42] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:36:41] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:root:get request successfully
+ERROR:__main__:Exception on /review [POST]
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\HP\AppData\Local\Temp\ipykernel_24784\129462190.py", line 63, in index
+    return render_template("result.html",list_pw)
+UnboundLocalError: local variable 'list_pw' referenced before assignment
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:36:51] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:37:29] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:root:get request successfully
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:38:53] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:root:get request successfully
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:41:15] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:root:get request successfully
+INFO:root:connection successfull
+INFO:root:data collected
+INFO:root:data get into dict
+INFO:root:data collected
+INFO:root:data get into dict
+INFO:root:data collected
+INFO:root:data get into dict
+INFO:root:data collected
+INFO:root:data get into dict
+INFO:root:data collected
+INFO:root:data get into dict
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:41:42] "[37mPOST /review HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:41:42] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:42:27] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:root:get request successfully
+INFO:root:connection successfull
+INFO:root:data collected
+INFO:root:data get into dict
+INFO:root:data collected
+INFO:root:data get into dict
+INFO:root:data collected
+INFO:root:data get into dict
+INFO:root:data collected
+INFO:root:data get into dict
+INFO:root:data collected
+INFO:root:data get into dict
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:42:55] "[37mPOST /review HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:42:55] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:46:25] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:root:get request successfully
+INFO:root:connection successfull
+INFO:root:data collected
+INFO:root:data get into dict
+INFO:root:data collected
+INFO:root:data get into dict
+INFO:root:data collected
+INFO:root:data get into dict
+INFO:root:data collected
+INFO:root:data get into dict
+INFO:root:data collected
+INFO:root:data get into dict
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:46:52] "[37mPOST /review HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:46:52] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:47:06] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:root:get request successfully
+INFO:root:connection successfull
+INFO:root:data collected
+INFO:root:data get into dict
+INFO:root:data collected
+INFO:root:data get into dict
+INFO:root:data collected
+INFO:root:data get into dict
+INFO:root:data collected
+INFO:root:data get into dict
+INFO:root:data collected
+INFO:root:data get into dict
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:50:23] "[37mPOST /review HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:50:23] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:50:39] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:root:get request successfully
+INFO:root:connection successfull
+INFO:root:data collected
+INFO:root:data get into dict
+INFO:root:data collected
+INFO:root:data get into dict
+INFO:root:data collected
+INFO:root:data get into dict
+INFO:root:data collected
+INFO:root:data get into dict
+INFO:root:data collected
+INFO:root:data get into dict
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:51:05] "[37mPOST /review HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:51:05] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:52:19] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:52:20] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:52:20] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:52:20] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:root:get request successfully
+INFO:root:connection successfull
+INFO:root:data collected
+INFO:root:data get into dict
+INFO:root:data collected
+INFO:root:data get into dict
+INFO:root:data collected
+INFO:root:data get into dict
+INFO:root:data collected
+INFO:root:data get into dict
+INFO:root:data collected
+INFO:root:data get into dict
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:52:42] "[37mPOST /review HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:52:43] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2023 13:53:05] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
